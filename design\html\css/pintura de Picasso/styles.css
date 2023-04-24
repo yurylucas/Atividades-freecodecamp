@@ -1,7 +1,9 @@
+ /* Define a cor de fundo do corpo da página como um tom de marrom claro */
 body {
   background-color: rgb(184, 132, 46);
 }
 
+/* Define a cor de fundo da parede de fundo como um tom mais escuro de marrom, cobrindo 60% da altura da página e estendendo-se por toda a largura. Também é posicionado como absoluto na parte superior e esquerda, e com um z-index negativo para ficar atrás do personagem. */
 #back-wall {
   background-color: #8B4513;
   width: 100%;
@@ -12,11 +14,83 @@ body {
   z-index: -1;
 }
 
-#offwhite-character{
-  background-color: ghostwhite;
-  width: 100px;
+/* Define as dimensões e a cor de fundo do personagem offwhite. Também é posicionado como absoluto na parte superior e esquerda, com valores percentuais específicos para sua posição na página. */
+#offwhite-character {
+  width: 300px;
   height: 550px;
+  background-color: GhostWhite;
   position: absolute;
   top: 20%;
   left: 17.5%;
 }
+
+/* Define as dimensões e o estilo do chapéu branco. É posicionado absolutamente acima do personagem e com bordas em estilo de triângulo, criando a forma de um chapéu. */
+#white-hat {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 120px 140px 180px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: GhostWhite;
+  border-left-color: transparent;
+  position: absolute;
+  top: -140px;
+  left: 0;
+}
+
+/* Define as dimensões e a cor de fundo da máscara preta. Também é posicionado absolutamente no topo do personagem e com um z-index de 1 para ficar à frente do restante da imagem. */
+#black-mask {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(45, 31, 19);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Define as dimensões e a cor de fundo do instrumento cinza. É posicionado absolutamente à direita do personagem e tem uma largura de 15% da largura total da página. */
+#gray-instrument {
+  width: 15%;
+  height: 40%;
+  background-color: rgb(167, 162, 117);
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
